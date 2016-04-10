@@ -30,8 +30,8 @@ Vagrant.configure(2) do |config|
   
   config.vm.synced_folder "./data", "/home/docker/data", create: true
 
-  config.vm.provision :shell do |s|
-    s.path = 'provision.sh'
-  end
+  #config.vm.provision :shell do |s|
+  #  s.path = 'provision.sh'
+  #end
 
 end
